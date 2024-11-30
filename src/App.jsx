@@ -1,16 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+import "./i18n";
 import './App.css'
+import Layout from './Layout';
+import AppRoutes from "./Routes/Routes"
+import { BrowserRouter as Router } from "react-router-dom";
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-     <h1>Ya funciona!!!</h1>
-    </>
-  )
+    <Router>
+    <Layout>
+      <AppRoutes />
+    </Layout>
+  </Router>
+  );
 }
 
 export default App
