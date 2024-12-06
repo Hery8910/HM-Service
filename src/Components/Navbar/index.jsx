@@ -51,9 +51,9 @@ function Navbar() {
         </button>
       )}
       <ul
-        className={`${!isMobile ? styles.desktop : styles.mobile} ${
-                       isMobile && menuOpen ? styles.open : ""
-        }`}
+        className={`${!isMobile ? styles.desktop : styles.mobile}
+                    ${isMobile && menuOpen ? styles.open : ""}
+                    ${scrolled ? styles.scrolled_ul : ""}`}
       >
         <li>
           <Link

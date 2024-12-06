@@ -1,0 +1,155 @@
+.main {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0 auto;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 4rem 2rem;
+  height: 90dvh;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px #95d5b2;
+  background-image: url("./images/Hero-desktop.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.h1 {
+  font-size: 5rem;
+  color: #081c15;
+  margin: 0;
+}
+.h2 {
+  font-size: 2.6rem;
+  color: #081c15;
+  margin: 0.6rem 0;
+}
+.p {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  border: 0;
+  background-color: #95d5b2;
+  color: #081c15;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #081c15ff;
+  transform: scale(105%);
+}
+.button:active {
+  transform: scale(95%);
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.about {
+  margin: 8rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.about_div {
+  width: 50%;
+}
+.contact {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  margin-bottom: 10rem;
+}
+
+.about_img {
+  max-width: 600px;
+  height: 750px;
+  box-shadow: 0 4px 8px #95d5b2;
+}
+.testimonials,
+.services,
+.whyUs {
+  margin: 15rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.testimonials_ul,
+.whyUs_ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+}
+.li {
+  list-style: none;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px #95d5b2;
+}
+.services_ul {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+}
+.services_li {
+  flex: 1;
+}
+.services_img {
+  max-width: 550px;
+  max-height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    background-image: url("./images/Hero-mobile.webp");
+    width: 840px;
+    height: 530px;
+  }
+  .h1 {
+    font-size: 2.4rem;
+  }
+  .h2 {
+    font-size: 1.5rem;
+  }
+  .button {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .h1 {
+    font-size: 2.2rem;
+  }
+  .h2 {
+    font-size: 1.3rem;
+  }
+  .button {
+    font-size: 0.9rem;
+  }
+}

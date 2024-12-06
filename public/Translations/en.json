@@ -20,7 +20,7 @@
     }
   },
   "home": {
-    "welcome_message": "Welcome to Haus Meister Service",
+    "welcome_message": "Haus Meister Service",
     "subtitle": "Your reliable partner for home services",
     "services_section": {
       "title": "Our Services",
@@ -29,38 +29,47 @@
     },
     "testimonials": {
       "title": "What Our Clients Say",
-      "feedback_1": {
-        "name": "Juana",
-        "feedback": "Excellent service, highly recommended!"
-      },
-      "feedback_2": {
-        "name": "Juana",
-        "feedback": "Excellent service, highly recommended!"
-      },
-      "feedback_3": {
-        "name": "Juana",
-        "feedback": "Excellent service, highly recommended!"
-      },
-      "feedback_4": {
-        "name": "Juana",
-        "feedback": "Excellent service, highly recommended!"
-      }
+      "reviews": [
+        {
+          "name": "Hans Müller",
+          "feedback": "Excellent service, highly recommended!"
+        },
+        {
+          "name": "Klara Schmidt",
+          "feedback": "They exceeded my expectations. Great professionalism and attention to detail."
+        },
+        {
+          "name": "Johann Bauer",
+          "feedback": "Quick and efficient. I am extremely satisfied with the results!"
+        },
+        {
+          "name": "Sophie Fischer",
+          "feedback": "Reliable and friendly service. I will definitely use them again!"
+        }
+      ]
     },
-    "why_us": {
-      "title": "Why Choose Us",
-      "benefit_1": {
-        "title": "Juana",
-        "description": "Excellent service, highly recommended!"
+    "benefits": {
+    "title": "Why Choose Us",
+    "description": "Experience unmatched quality and reliability with our home services.",
+    "cards": [
+      {
+        "title": "Expert Team",
+        "description": "Our skilled professionals bring years of experience."
       },
-      "benefit_2": {
-        "title": "Juana",
-        "description": "Excellent service, highly recommended!"
+      {
+        "title": "Reliable Service",
+        "description": "We ensure punctuality and trustworthiness."
       },
-      "benefit_3": {
-        "title": "Juana",
-        "description": "Excellent service, highly recommended!"
+      {
+        "title": "Comprehensive Solutions",
+        "description": "We offer a full range of tailored services."
+      },
+      {
+        "title": "Customer-Centered Approach",
+        "description": "Your satisfaction is our priority."
       }
-    }
+    ]
+  }
   },
   "about": {
     "title": "About Us",
@@ -72,28 +81,20 @@
     "vision": {
       "title": "Our Vision",
       "text": "To be the most trusted partner for all home-related services."
-    },
-    "values": {
-      "title": "Our Values",
-      "list": [
-        "Professionalism",
-        "Reliability",
-        "Customer Focus"
-      ]
     }
   },
   "services": {
     "title": "Our Services",
     "maintenance": {
-      "name": "Home Maintenance",
-      "description": "Ensure your home is always in top condition with our reliable maintenance services."
+      "name": "Cleaning",
+      "description": "in top condition with our reliable maintenance services."
     },
     "renovations": {
       "name": "Renovations",
       "description": "Transform your home with our professional renovation services."
     },
     "moving": {
-      "name": "Moving Assistance",
+      "name": "Moving",
       "description": "Safe and efficient moving services tailored to your needs."
     }
   },
@@ -101,7 +102,7 @@
     "title": "Let's Discuss Your Next Project",
     "subtitle": "Fill out the form, or call us to set up a free in-home consultation.",
     "areas": "Berlin, Brandenburg",
-    "address": "Sarah-Kirch-Str. 3, 12629",
+    "address": "Sarah-Kirsch-Str. 3, 12629",
     "phone": "Phone",
     "email": "Email",
     "form": {
