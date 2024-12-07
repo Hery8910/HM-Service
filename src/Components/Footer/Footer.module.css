@@ -1,7 +1,6 @@
 .footer {
   font-family: Helvetica, Arial, sans-serif;
   width: 100%;
-
   display: flex;
   justify-content: space-around;
   align-items: center;

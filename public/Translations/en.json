@@ -22,54 +22,50 @@
   "home": {
     "welcome_message": "Haus Meister Service",
     "subtitle": "Your reliable partner for home services",
-    "services_section": {
-      "title": "Our Services",
-      "description": "Discover how we can help you maintain and improve your home.",
-      "button": "View All Services"
-    },
+   
     "testimonials": {
       "title": "What Our Clients Say",
       "reviews": [
         {
           "name": "Hans Müller",
-          "feedback": "Excellent service, highly recommended!"
+          "feedback": "The team was incredibly professional and handled everything with care. They not only completed the job ahead of schedule but also made sure to clean up afterward. I felt well taken care of and will definitely recommend them to my friends and family."
         },
         {
           "name": "Klara Schmidt",
-          "feedback": "They exceeded my expectations. Great professionalism and attention to detail."
+          "feedback": "This service went above and beyond my expectations. They carefully listened to my needs and delivered exceptional results. The attention to detail and dedication were truly impressive. I couldn’t have asked for a better experience."
         },
         {
           "name": "Johann Bauer",
-          "feedback": "Quick and efficient. I am extremely satisfied with the results!"
+          "feedback": "From start to finish, the entire process was smooth and efficient. The staff was friendly and communicated clearly throughout. The results were outstanding, and I couldn’t be happier with how everything turned out!"
         },
         {
           "name": "Sophie Fischer",
-          "feedback": "Reliable and friendly service. I will definitely use them again!"
+          "feedback": "I’ve used their services multiple times now, and they never disappoint. They are reliable, punctual, and always go the extra mile to ensure customer satisfaction. It’s rare to find such a trustworthy team nowadays."
         }
       ]
     },
     "benefits": {
-    "title": "Why Choose Us",
-    "description": "Experience unmatched quality and reliability with our home services.",
-    "cards": [
-      {
-        "title": "Expert Team",
-        "description": "Our skilled professionals bring years of experience."
-      },
-      {
-        "title": "Reliable Service",
-        "description": "We ensure punctuality and trustworthiness."
-      },
-      {
-        "title": "Comprehensive Solutions",
-        "description": "We offer a full range of tailored services."
-      },
-      {
-        "title": "Customer-Centered Approach",
-        "description": "Your satisfaction is our priority."
-      }
-    ]
-  }
+      "title": "Why Choose Us",
+      "description": "Discover unparalleled expertise and dependable solutions with our professional home services, tailored to meet your needs.",
+      "cards": [
+        {
+          "title": "Expert Team",
+          "description": "Our highly skilled professionals have extensive experience in home services, ensuring every project is completed with precision and excellence."
+        },
+        {
+          "title": "Reliable Service",
+          "description": "We are committed to punctuality and trustworthiness, providing dependable solutions that you can count on for every home need."
+        },
+        {
+          "title": "Comprehensive Solutions",
+          "description": "From maintenance to renovations, we deliver a wide range of personalized services designed to enhance the comfort and functionality of your home."
+        },
+        {
+          "title": "Customer-Centered Approach",
+          "description": "We prioritize your satisfaction by understanding your unique requirements and delivering tailored solutions that exceed your expectations."
+        }
+      ]
+    }
   },
   "about": {
     "title": "About Us",
@@ -85,31 +81,45 @@
   },
   "services": {
     "title": "Our Services",
+    "description": "Discover how we can help you maintain and improve your home.",
+    "detailed_description": "We offer a comprehensive range of professional home and business services designed to meet your unique needs. From thorough cleaning solutions to expert renovations and stress-free moving assistance, our dedicated team ensures exceptional results every time. Whether you're maintaining, upgrading, or relocating your space, we deliver reliable, tailored solutions with a focus on quality, efficiency, and customer satisfaction. Experience the difference with our services, crafted to enhance the comfort, functionality, and value of your property.",
+    "button": "View All Services",
+    "cta": "Tell us about your project today.",
+    "ctaButton": "Get a free Estimate",
     "maintenance": {
       "name": "Cleaning",
-      "description": "in top condition with our reliable maintenance services."
+      "description": "Keep your home or office in top condition with our reliable cleaning services. We specialize in thorough and efficient cleaning solutions designed to create a fresh and welcoming environment for you and your family.",
+      "detailed_description": "Our Cleaning Services are tailored to meet the unique needs of both residential and commercial spaces. From regular maintenance cleaning to deep cleaning projects, we use eco-friendly products and advanced techniques to ensure your space is spotless and hygienic. Let us help you create a clean and healthy environment where you can thrive."
     },
     "renovations": {
       "name": "Renovations",
-      "description": "Transform your home with our professional renovation services."
+      "description": "Transform your living or working space with our professional renovation services. From minor upgrades to major overhauls, we deliver results that combine functionality and aesthetics to meet your vision.",
+      "detailed_description": "Our Renovation Services are designed to breathe new life into your home or office. Whether you're modernizing a single room, renovating your kitchen or bathroom, or embarking on a full-scale remodeling project, our skilled team works with precision and care. We focus on quality craftsmanship, timely delivery, and exceeding your expectations. Let us turn your vision into reality, creating spaces that are both functional and inspiring."
     },
     "moving": {
       "name": "Moving",
-      "description": "Safe and efficient moving services tailored to your needs."
+      "description": "Enjoy a stress-free relocation with our safe and efficient moving services. We provide personalized solutions to ensure your belongings are transported securely and on time, whether it’s a local or long-distance move.",
+      "detailed_description": "Relocating can be a daunting task, but our Moving Services are here to make the process seamless and hassle-free. From packing and labeling to secure transportation and careful unloading, we handle every detail with professionalism and care. Whether you’re moving within the city or to a new location, our experienced team ensures that your belongings arrive safely and on schedule. Trust us to take the stress out of your next move."
     }
   },
   "contact": {
     "title": "Let's Discuss Your Next Project",
     "subtitle": "Fill out the form, or call us to set up a free in-home consultation.",
-    "areas": "Berlin, Brandenburg",
+    "areas": "Service Areas: Berlin, Brandenburg",
     "address": "Sarah-Kirsch-Str. 3, 12629",
-    "phone": "Phone",
-    "email": "Email",
     "form": {
-      "name": "Your Name",
-      "email": "Your Email",
-      "message": "Your Message",
-      "submit": "Send Message"
+      "message": {
+        "title": "Thank you for reaching out to us.",
+        "description": "We will get back to you as soon as possible.",
+        "message": "Message sent successfully"
+      },
+      "name": "Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "comment": "Message",
+      "submit": "Submit"
     }
   },
   "legal": {

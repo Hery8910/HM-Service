@@ -1,11 +1,13 @@
+/* General */
 .main {
   font-family: Helvetica, Arial, sans-serif;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 .hero {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   box-sizing: border-box;
   padding: 4rem 2rem;
@@ -19,28 +21,45 @@
   background-size: cover;
 }
 
+/* Headings */
 .h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #081c15;
   margin: 0;
+  text-align: center;
 }
 .h2 {
-  font-size: 2.6rem;
+  font-size: 2.4rem;
   color: #081c15;
   margin: 0.6rem 0;
+  text-align: center;
+}
+.h3 {
+  font-size: 1.6rem;
+  color: #193528;
+  text-align: center;
+}
+.h4 {
+  font-size: 1.3rem;
+  text-align: center;
+  margin: 0;
 }
 .p {
+  margin: .9rem 0;
   font-size: 1.2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
+  text-align: left;
 }
 
+/* Buttons */
 .button {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  margin-top: 1rem;
-  padding: 1rem;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
   font-size: 1rem;
   font-weight: 900;
   border: 0;
@@ -51,7 +70,7 @@
   transition: all 0.3s ease-in-out;
 }
 .button:hover {
-  background-color: #081c15ff;
+  background-color: #081c15;
   transform: scale(105%);
 }
 .button:active {
@@ -61,95 +80,139 @@
   text-decoration: none;
   color: inherit;
 }
+
+/* About Section */
 .about {
   margin: 8rem auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 5rem;
 }
-.about_div {
-  width: 50%;
-}
-.contact {
-  display: flex;
-  align-items: start;
-  justify-content: space-around;
-  margin-bottom: 10rem;
-}
-
 .about_img {
-  max-width: 600px;
-  height: 750px;
+  max-width: 400px;
+  max-height: auto;
   box-shadow: 0 4px 8px #95d5b2;
 }
+.about_div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+/* Testimonials, Services, and Benefits */
 .testimonials,
-.services,
 .whyUs {
   margin: 15rem auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
+  padding: 0 1rem;
 }
-
 .testimonials_ul,
 .whyUs_ul {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  gap: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .li {
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
   list-style: none;
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 0 4px 8px #95d5b2;
+  text-align: center;
 }
-.services_ul {
+
+.testimonials_icon {
+  font-size: 2.6rem;
+  color: #40916c;
+  text-shadow: 0 1px 1px #081c15;
+
+
+}
+
+/* Contact Section */
+
+.aside {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: stretch;
-  gap: 1rem;
+  align-items: flex-start;
+  max-width: 400px;
 }
-.services_li {
-  flex: 1;
-}
-.services_img {
-  max-width: 550px;
-  max-height: 500px;
+
+/* Responsive Media Queries */
+@media screen and (max-width: 1200px) {
+  .hero {
+    height: 70dvh;
+  }
+  .about {
+    gap: 2rem;
+  }
+  .h1 {
+    font-size: 3rem;
+  }
+  .h2 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .hero {
     background-image: url("./images/Hero-mobile.webp");
-    width: 840px;
-    height: 530px;
+    height: 60vh;
+    padding: 2rem 1rem;
   }
   .h1 {
-    font-size: 2.4rem;
+    font-size: 2.5rem;
   }
   .h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
-  .button {
-    font-size: 1rem;
+  .about {
+    flex-direction: column;
+  }
+  .about_img {
+    max-width: 100%;
+    height: auto;
+  }
+  .about_div {
+    text-align: center;
+  }
+  .contact {
+    flex-direction: column;
+    text-align: left;
+    gap: 6rem;
   }
 }
 
 @media screen and (max-width: 525px) {
+  .hero {
+    height: 70vh;
+  }
   .h1 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   .button {
     font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .contact {
+    gap: 4rem;
+
   }
 }
