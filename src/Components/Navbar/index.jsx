@@ -2,10 +2,11 @@ import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/Logo-transparent.svg";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [isMobile, setIsMobile] = useState(false); // Estado para detectar dispositivos móviles
+  const [isMobile, setIsMobile] = useState(false); 
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -41,6 +42,7 @@ function Navbar() {
         <img src={Logo} alt="HM-Service Logo" style={{ height: "80px" }} />
         <h1 className={styles.h1}>HM-Service</h1>
       </Link>
+      <LanguageSwitcher />
       {isMobile && (
         <button
           className={styles.hamburger}

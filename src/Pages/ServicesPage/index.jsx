@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./ServicesPage.module.css";
-import { Link } from "react-router-dom";
+import Cta from "../../Components/Cta";
 
 export default function ServicesPage() {
   const { t } = useTranslation();
@@ -88,10 +88,7 @@ export default function ServicesPage() {
           </div>
         </li>
       </ul>
-      <aside className={styles.aside}>
-        <h3 className={styles.h3}>{t("services.cta")}</h3>
-        <button className={styles.button}><Link className={styles.link} to="/contact">{t("services.ctaButton")}</Link></button>
-      </aside>
+      <Cta />
     </main>
   );
 }

@@ -1,7 +1,247 @@
 {
-    "welcome": "Willkommen bei Haus Meister Service",
-    "about": "Über uns",
-    "services": "Unsere Dienstleistungen",
-    "contact": "Kontaktieren Sie uns"
+  "common": {
+    "header": {
+      "home": "Startseite",
+      "about": "Über uns",
+      "services": "Dienstleistungen",
+      "contact": "Kontakt",
+      "language": "Sprache"
+    },
+    "footer": {
+      "privacy_policy": "Datenschutzrichtlinie",
+      "terms_of_service": "Nutzungsbedingungen",
+      "cookie_policy": "Cookie-Richtlinie",
+      "follow_us": "Folgen Sie uns"
+    },
+    "cta": {
+      "text": "Bereit für den Unterschied? Kontaktieren Sie uns noch heute und lassen Sie uns besprechen, wie wir Ihnen helfen können.",
+      "GetInTouch": "Kontakt aufnehmen",
+      "learn_more": "Mehr erfahren",
+      "get_started": "Loslegen",
+      "contact_us": "Kontaktieren Sie uns",
+      "link": "/kontakt"
+    }
+  },
+  "home": {
+    "welcome_message": "Haus Meister Service",
+    "subtitle": "Ihr zuverlässiger Partner für Hausdienste",
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "reviews": [
+        {
+          "name": "Hans Müller",
+          "feedback": "Das Team war unglaublich professionell und hat alles mit größter Sorgfalt erledigt. Sie haben die Arbeit nicht nur früher als geplant abgeschlossen, sondern auch danach aufgeräumt. Ich fühlte mich bestens betreut und werde sie auf jeden Fall meinen Freunden und meiner Familie empfehlen."
+        },
+        {
+          "name": "Klara Schmidt",
+          "feedback": "Dieser Service hat meine Erwartungen übertroffen. Sie haben sorgfältig zugehört und außergewöhnliche Ergebnisse geliefert. Die Liebe zum Detail und das Engagement waren wirklich beeindruckend. Ich hätte keine bessere Erfahrung machen können."
+        },
+        {
+          "name": "Johann Bauer",
+          "feedback": "Von Anfang bis Ende war der gesamte Prozess reibungslos und effizient. Das Personal war freundlich und hat währenddessen klar kommuniziert. Die Ergebnisse waren hervorragend, und ich bin absolut zufrieden!"
+        },
+        {
+          "name": "Sophie Fischer",
+          "feedback": "Ich habe ihre Dienste schon mehrfach in Anspruch genommen, und sie enttäuschen nie. Sie sind zuverlässig, pünktlich und gehen immer die Extrameile, um die Kundenzufriedenheit sicherzustellen. Es ist heutzutage selten, ein so vertrauenswürdiges Team zu finden."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Warum uns wählen",
+      "description": "Entdecken Sie unvergleichliche Fachkenntnisse und zuverlässige Lösungen mit unseren professionellen Hausdiensten, die auf Ihre Bedürfnisse zugeschnitten sind.",
+      "cards": [
+        {
+          "title": "Experten-Team",
+          "description": "Unsere hochqualifizierten Fachkräfte verfügen über umfangreiche Erfahrungen im Bereich Hausdienste und sorgen dafür, dass jedes Projekt mit Präzision und Exzellenz abgeschlossen wird."
+        },
+        {
+          "title": "Zuverlässiger Service",
+          "description": "Wir legen großen Wert auf Pünktlichkeit und Vertrauenswürdigkeit und bieten zuverlässige Lösungen, auf die Sie sich bei jedem Hausbedarf verlassen können."
+        },
+        {
+          "title": "Umfassende Lösungen",
+          "description": "Von der Wartung bis hin zu Renovierungen bieten wir eine breite Palette personalisierter Dienstleistungen, die den Komfort und die Funktionalität Ihres Zuhauses verbessern."
+        },
+        {
+          "title": "Kundenorientierter Ansatz",
+          "description": "Wir priorisieren Ihre Zufriedenheit, indem wir Ihre individuellen Anforderungen verstehen und maßgeschneiderte Lösungen liefern, die Ihre Erwartungen übertreffen."
+        }
+      ]
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "Im Mittelpunkt unserer Mission steht das Engagement, zuverlässige und effiziente Hausdienste zu bieten, die Ihr Leben erleichtern. Mit über einem Jahrzehnt Erfahrung haben wir unser Fachwissen verfeinert, um vielfältige Bedürfnisse zu erfüllen und Erwartungen zu übertreffen. Unser Team ist leidenschaftlich daran interessiert, Lösungen zu bieten, die nicht nur den Branchenstandards entsprechen, sondern diese übertreffen. So schaffen wir dauerhafte Beziehungen zu unseren Kunden, die auf Vertrauen und Exzellenz basieren.",
+    "process": {
+      "title": "Unser Prozess",
+      "description": "Wir folgen einem strukturierten und transparenten Prozess, um sicherzustellen, dass jedes Projekt für unsere Kunden reibungslos und stressfrei verläuft. Von der ersten Beratung bis zur endgültigen Umsetzung liegt unser Fokus darauf, maßgeschneiderte Lösungen und außergewöhnliche Ergebnisse zu liefern. So funktioniert es:",
+      "steps": [
+        {
+          "title": "Kontaktaufnahme",
+          "description": "Die Kontaktaufnahme mit uns ist einfach und unkompliziert. Ob per Telefon, E-Mail oder unser benutzerfreundliches Online-Formular – wir sind bereit, von Ihnen zu hören. Während dieses ersten Kontakts besprechen wir Ihre spezifischen Bedürfnisse, beantworten Fragen und vereinbaren einen Termin, der in Ihren Zeitplan passt.",
+          "image": "/images/floor-plan.webp",
+          "alt": "Grundriss, Bau, Gebäude-Bild"
+        },
+        {
+          "title": "Vor-Ort-Beratung",
+          "description": "Unser engagiertes Team besucht Ihren Standort, um Ihre Anforderungen im Detail zu verstehen. Dieser Schritt ermöglicht es uns, den Umfang des Projekts zu bewerten, potenzielle Herausforderungen zu identifizieren und maßgeschneiderte Empfehlungen abzugeben, die mit Ihrer Vision übereinstimmen. Wir priorisieren Klarheit und Zusammenarbeit, um sicherzustellen, dass Sie in jeder Phase vollständig informiert sind.",
+          "image": "/images/construction-worker.webp",
+          "alt": "Bauarbeiter, Handwerker, Bau-Bild"
+        },
+        {
+          "title": "Durchführung der Dienstleistung",
+          "description": "Sobald der Plan finalisiert ist, legt unser erfahrenes Fachpersonal los und liefert Dienstleistungen mit Präzision und Sorgfalt. Wir verwenden hochwertige Materialien und bewährte Techniken, um außergewöhnliche Ergebnisse zu gewährleisten. Während des gesamten Prozesses halten wir Sie auf dem Laufenden, um Ihre Zufriedenheit in jeder Phase sicherzustellen.",
+          "image": "/images/basement-remodeling.webp",
+          "alt": "Kellerumbau, Renovierung"
+        }
+      ]
+    },
+    "quality": {
+      "title": "Qualität und Professionalität",
+      "description": "Wir sind stolz darauf, Ergebnisse zu liefern, die erstklassige Handwerkskunst, Liebe zum Detail und ein unerschütterliches Engagement für Exzellenz kombinieren. Unser erfahrenes Team nähert sich jedem Projekt mit Sorgfalt und Präzision, um sicherzustellen, dass unsere Kunden nicht nur außergewöhnliche Ergebnisse, sondern auch ein unvergleichliches Serviceerlebnis erhalten. Ob es sich um eine kleine Aufgabe oder ein groß angelegtes Projekt handelt, wir halten die höchsten Standards der Professionalität ein und machen uns so zu Ihrem vertrauenswürdigen Partner für alle Dienstleistungen rund ums Haus. Mit uns ist Qualität nicht nur ein Versprechen, sondern eine Garantie."
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "description": "Entdecken Sie, wie wir Ihnen helfen können, Ihr Zuhause zu pflegen und zu verbessern.",
+    "detailed_description": "Wir bieten ein umfassendes Spektrum an professionellen Haus- und Geschäftsdienstleistungen, die auf Ihre individuellen Bedürfnisse zugeschnitten sind. Von gründlichen Reinigungsarbeiten über fachkundige Renovierungen bis hin zu stressfreien Umzugsdiensten sorgt unser engagiertes Team jedes Mal für außergewöhnliche Ergebnisse. Ob Sie Ihren Raum erhalten, aufrüsten oder verlegen, wir liefern zuverlässige, maßgeschneiderte Lösungen mit Fokus auf Qualität, Effizienz und Kundenzufriedenheit. Erleben Sie den Unterschied mit unseren Dienstleistungen, die entwickelt wurden, um den Komfort, die Funktionalität und den Wert Ihrer Immobilie zu verbessern.",
+    "button": "Alle Dienstleistungen anzeigen",
+    "cta": "Erzählen Sie uns heute von Ihrem Projekt.",
+    "ctaButton": "Kostenloses Angebot einholen",
+    "maintenance": {
+      "name": "Reinigung",
+      "description": "Halten Sie Ihr Zuhause oder Büro mit unseren zuverlässigen Reinigungsdiensten in Top-Zustand. Wir sind auf gründliche und effiziente Reinigungslösungen spezialisiert, die eine frische und einladende Umgebung für Sie und Ihre Familie schaffen.",
+      "detailed_description": "Unsere Reinigungsdienste sind auf die individuellen Bedürfnisse von Wohn- und Gewerbeflächen zugeschnitten. Von regelmäßiger Wartungsreinigung bis hin zu umfassenden Reinigungsprojekten verwenden wir umweltfreundliche Produkte und fortschrittliche Techniken, um sicherzustellen, dass Ihr Raum makellos und hygienisch ist. Lassen Sie uns Ihnen helfen, eine saubere und gesunde Umgebung zu schaffen, in der Sie sich wohlfühlen können."
+    },
+    "renovations": {
+      "name": "Renovierungen",
+      "description": "Verwandeln Sie Ihren Wohn- oder Arbeitsraum mit unseren professionellen Renovierungsdiensten. Von kleinen Verbesserungen bis hin zu großen Überholungen liefern wir Ergebnisse, die Funktionalität und Ästhetik kombinieren, um Ihre Vision zu erfüllen.",
+      "detailed_description": "Unsere Renovierungsdienste sind darauf ausgelegt, Ihrem Zuhause oder Büro neues Leben einzuhauchen. Ob Sie einen einzelnen Raum modernisieren, Ihre Küche oder Ihr Bad renovieren oder ein umfassendes Umbauprojekt starten – unser qualifiziertes Team arbeitet mit Präzision und Sorgfalt. Wir legen Wert auf hochwertige Handwerkskunst, termingerechte Lieferung und das Übertreffen Ihrer Erwartungen. Lassen Sie uns Ihre Vision in die Realität umsetzen und Räume schaffen, die sowohl funktional als auch inspirierend sind."
+    },
+    "moving": {
+      "name": "Umzüge",
+      "description": "Genießen Sie einen stressfreien Umzug mit unseren sicheren und effizienten Umzugsdiensten. Wir bieten personalisierte Lösungen, um sicherzustellen, dass Ihre Habseligkeiten sicher und pünktlich transportiert werden – sei es ein lokaler oder ein Fernumzug.",
+      "detailed_description": "Ein Umzug kann eine herausfordernde Aufgabe sein, aber unsere Umzugsdienste machen den Prozess nahtlos und stressfrei. Vom Verpacken und Etikettieren über den sicheren Transport bis hin zum sorgfältigen Ausladen kümmern wir uns um jedes Detail mit Professionalität und Sorgfalt. Egal, ob Sie innerhalb der Stadt oder an einen neuen Ort ziehen, unser erfahrenes Team sorgt dafür, dass Ihre Habseligkeiten sicher und pünktlich ankommen. Vertrauen Sie uns, um den Stress aus Ihrem nächsten Umzug zu nehmen."
+    }
+  },
+  "contact": {
+    "title": "Lassen Sie uns über Ihr nächstes Projekt sprechen",
+    "subtitle": "Füllen Sie das Formular aus oder rufen Sie uns an, um eine kostenlose Beratung vor Ort zu vereinbaren.",
+    "areas": "Dienstleistungsgebiete: Berlin, Brandenburg",
+    "address": "Sarah-Kirsch-Str. 3, 12629",
+    "form": {
+      "message": {
+        "title": "Vielen Dank, dass Sie uns kontaktiert haben.",
+        "description": "Wir werden uns so schnell wie möglich bei Ihnen melden.",
+        "message": "Nachricht erfolgreich gesendet"
+      },
+      "name": "Name",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "address": "Adresse",
+      "comment": "Nachricht",
+      "submit": "Absenden"
+    }
+  },
+  "legal": {
+    "privacy_policy": {
+      "title": "Datenschutzrichtlinie",
+      "content": {
+        "introduction": {
+          "title": "Einleitung",
+          "description": "Wir nehmen den Schutz Ihrer Privatsphäre sehr ernst und verpflichten uns, Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO) und anderen geltenden Gesetzen erheben, verwenden und speichern."
+        },
+        "data_collection": {
+          "title": "Welche Daten wir erfassen",
+          "description": "Wir erfassen personenbezogene Daten wie Ihren Namen, Ihre E-Mail-Adresse, Telefonnummer, Adresse sowie alle Informationen, die Sie über unsere Kontaktformulare oder auf andere Weise bereitstellen. Darüber hinaus sammeln wir technische Daten wie Ihre IP-Adresse, Browsertyp und Betriebssystem über Cookies oder Analysetools, um unsere Dienste zu verbessern."
+        },
+        "legal_basis": {
+          "title": "Rechtsgrundlage für die Datenverarbeitung",
+          "description": "Wir verarbeiten Ihre personenbezogenen Daten basierend auf folgenden Rechtsgrundlagen: (1) Ihrer Einwilligung, (2) der Erfüllung eines Vertrags, (3) der Erfüllung rechtlicher Verpflichtungen oder (4) unserem berechtigten Interesse, unsere Dienste zu verbessern und bereitzustellen."
+        },
+        "data_usage": {
+          "title": "Wie wir Ihre Daten verwenden",
+          "description": "Ihre Daten werden verwendet, um: (1) Anfragen zu beantworten und mit Ihnen zu kommunizieren, (2) die von Ihnen angeforderten Dienstleistungen bereitzustellen, (3) unsere Website und Dienstleistungen zu verbessern, und (4) gesetzliche Anforderungen zu erfüllen. Wir verkaufen oder teilen Ihre Daten nicht mit Dritten, es sei denn, dies ist gesetzlich vorgeschrieben oder erforderlich, um Ihre Anfragen zu erfüllen."
+        },
+        "data_protection": {
+          "title": "Wie wir Ihre Daten schützen",
+          "description": "Wir setzen technische und organisatorische Maßnahmen ein, um Ihre personenbezogenen Daten vor unbefugtem Zugriff, Änderung oder Offenlegung zu schützen. Dazu gehören Verschlüsselung, Zugriffskontrollen und regelmäßige Sicherheitsprüfungen. Bitte beachten Sie jedoch, dass keine Methode der Datenübertragung über das Internet vollständig sicher ist."
+        },
+        "data_retention": {
+          "title": "Aufbewahrung der Daten",
+          "description": "Wir speichern Ihre personenbezogenen Daten nur so lange, wie es für die in dieser Richtlinie beschriebenen Zwecke oder zur Erfüllung gesetzlicher Anforderungen erforderlich ist. Nach Ablauf der Aufbewahrungsfrist werden Ihre Daten sicher gelöscht oder anonymisiert."
+        },
+        "your_rights": {
+          "title": "Ihre Rechte gemäß DSGVO",
+          "description": "Als betroffene Person haben Sie folgende Rechte: (1) das Recht auf Zugang zu Ihren persönlichen Daten, (2) das Recht auf Berichtigung unrichtiger oder unvollständiger Daten, (3) das Recht auf Löschung Ihrer Daten ('Recht auf Vergessenwerden'), (4) das Recht auf Einschränkung der Verarbeitung, (5) das Recht auf Datenübertragbarkeit, und (6) das Recht, der Datenverarbeitung zu widersprechen. Zur Ausübung dieser Rechte kontaktieren Sie uns bitte unter info@hm-service.pro."
+        },
+        "third_parties": {
+          "title": "Drittanbieter",
+          "description": "Wir können Drittanbieter für Analysen, Zahlungsabwicklung oder Marketing einsetzen. Diese Drittanbieter sind vertraglich verpflichtet, Ihre Daten sicher und DSGVO-konform zu verarbeiten."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "description": "Unsere Website verwendet Cookies, um Ihre Erfahrung zu verbessern. Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, um Funktionen wie das Speichern von Einstellungen zu ermöglichen. Sie können Ihre Cookie-Einstellungen über Ihre Browsereinstellungen verwalten. Weitere Details finden Sie in unserer Cookie-Richtlinie."
+        },
+        "updates": {
+          "title": "Aktualisierungen der Datenschutzrichtlinie",
+          "description": "Wir können diese Datenschutzrichtlinie gelegentlich aktualisieren, um Änderungen in unseren Praktiken oder gesetzlichen Anforderungen widerzuspiegeln. Bitte überprüfen Sie diese Seite regelmäßig auf Aktualisierungen."
+        },
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "description": "Wenn Sie Fragen oder Bedenken zu dieser Datenschutzrichtlinie oder Ihren persönlichen Daten haben, kontaktieren Sie uns bitte unter info@hm-service.pro."
+        }
+      }
+    },
+    "terms_of_service": {
+      "title": "Nutzungsbedingungen",
+      "content": {
+        "introduction": {
+          "title": "Einleitung",
+          "description": "Diese Nutzungsbedingungen regeln Ihre Nutzung unserer Website und Dienstleistungen. Durch den Zugriff auf unsere Website oder die Nutzung unserer Dienstleistungen erklären Sie sich mit diesen Bedingungen einverstanden. Wenn Sie nicht einverstanden sind, nutzen Sie unsere Dienstleistungen bitte nicht."
+        },
+        "services": {
+          "title": "Unsere Dienstleistungen",
+          "description": "Wir bieten professionelle Hausdienste an, wie sie auf unserer Website beschrieben sind. Alle Dienstleistungen unterliegen der Verfügbarkeit und werden an Ihre spezifischen Anforderungen angepasst. Preise, Beschreibungen und Verfügbarkeiten können ohne Vorankündigung geändert werden."
+        },
+        "user_responsibilities": {
+          "title": "Verantwortlichkeiten des Nutzers",
+          "description": "Sie erklären sich damit einverstanden, genaue und vollständige Informationen bereitzustellen, wenn Sie unsere Dienstleistungen in Anspruch nehmen. Sie dürfen unsere Website nicht für illegale Aktivitäten oder in einer Weise nutzen, die unseren Betrieb stört oder die Rechte anderer verletzt."
+        },
+        "intellectual_property": {
+          "title": "Geistiges Eigentum",
+          "description": "Alle Inhalte auf dieser Website, einschließlich Texte, Bilder und Logos, sind Eigentum von Haus Meister Service oder deren Lizenzgebern. Sie dürfen diese Inhalte ohne unsere ausdrückliche schriftliche Genehmigung nicht reproduzieren, verbreiten oder verwenden."
+        },
+        "payments": {
+          "title": "Zahlungen und Stornierungen",
+          "description": "Zahlungen für Dienstleistungen müssen wie vereinbart erfolgen. Stornierungen müssen mindestens 24 Stunden im Voraus erfolgen, um Gebühren zu vermeiden. Rückerstattungen liegen in unserem Ermessen und unterliegen geltendem Recht."
+        },
+        "warranties": {
+          "title": "Garantien",
+          "description": "Wir bemühen uns, qualitativ hochwertige Dienstleistungen zu erbringen, können jedoch nicht garantieren, dass unsere Website oder Dienstleistungen immer fehlerfrei sind oder Ihre spezifischen Anforderungen erfüllen. Soweit gesetzlich zulässig, lehnen wir alle impliziten Garantien ab."
+        },
+        "liability": {
+          "title": "Haftungsbeschränkung",
+          "description": "Wir haften nicht für indirekte, beiläufige oder Folgeschäden, die sich aus der Nutzung unserer Website oder Dienstleistungen ergeben. Unsere Gesamthaftung ist auf den Betrag beschränkt, der für die spezifische Dienstleistung gezahlt wurde."
+        },
+        "termination": {
+          "title": "Beendigung",
+          "description": "Wir behalten uns das Recht vor, den Zugang zu unserer Website oder unseren Dienstleistungen jederzeit und ohne Vorankündigung zu beenden oder auszusetzen, wenn ein Verhalten gegen diese Bedingungen verstößt."
+        },
+        "dispute_resolution": {
+          "title": "Streitbeilegung",
+          "description": "Alle Streitigkeiten, die sich aus diesen Nutzungsbedingungen ergeben, unterliegen den Gesetzen Deutschlands. Sie erklären sich damit einverstanden, Streitigkeiten durch Mediation oder Schiedsverfahren beizulegen, bevor Sie rechtliche Schritte einleiten."
+        },
+        "changes": {
+          "title": "Änderungen der Bedingungen",
+          "description": "Wir können diese Nutzungsbedingungen jederzeit aktualisieren. Die fortgesetzte Nutzung unserer Website oder Dienstleistungen nach Änderungen zeigt Ihre Zustimmung zu den aktualisierten Bedingungen an."
+        },
+        "contact": {
+          "title": "Kontaktieren Sie uns",
+          "description": "Wenn Sie Fragen oder Bedenken zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte unter info@hm-service.pro."
+        }
+      }
+    }
   }
-  
+}

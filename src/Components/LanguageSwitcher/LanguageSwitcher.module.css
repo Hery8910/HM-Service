@@ -1,0 +1,19 @@
+.select {
+    color: inherit;
+    cursor: pointer;
+    display: flex;
+    justify-content: start;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 1px solid #1e70878c;
+    box-shadow: 1px 1px 3px #1e70878c;
+  }
+  .select:hover {
+    background-color:  #1e70878c;
+  }
+  .select:focus {
+    outline: none;
+    border-color: rgba(141, 141, 141, 0.7);
+  }
+  

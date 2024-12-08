@@ -14,15 +14,17 @@
       "follow_us": "Follow Us"
     },
     "cta": {
+      "text": "Ready to experience the difference? Contact us today and let’s discuss how we can help you.",
+      "GetInTouch": "Get in Touch",
       "learn_more": "Learn More",
       "get_started": "Get Started",
-      "contact_us": "Contact Us"
+      "contact_us": "Contact Us",
+      "link": "/contact"
     }
   },
   "home": {
     "welcome_message": "Haus Meister Service",
     "subtitle": "Your reliable partner for home services",
-   
     "testimonials": {
       "title": "What Our Clients Say",
       "reviews": [
@@ -69,14 +71,34 @@
   },
   "about": {
     "title": "About Us",
-    "description": "We are committed to providing reliable and efficient home services. With years of experience, we understand your needs and strive to exceed expectations.",
-    "mission": {
-      "title": "Our Mission",
-      "text": "To deliver exceptional home services tailored to each client."
+    "description": "At the heart of our mission is a commitment to delivering reliable and efficient home services that simplify your life. With over a decade of experience, we have honed our expertise in addressing diverse needs and exceeding expectations. Our team is passionate about providing solutions that not only meet but surpass industry standards, creating lasting relationships with our clients built on trust and excellence.",
+    "process": {
+      "title": "Our Process",
+      "description": "We follow a structured and transparent process to ensure every project is seamless and stress-free for our clients. From the initial consultation to the final execution, our focus is on providing tailored solutions and exceptional results. Here's how we make it happen:",
+      "steps": [
+        {
+          "title": "Contact",
+          "description": "Connecting with us is simple and straightforward. Whether you prefer phone, email, or our user-friendly online form, we're ready to hear from you. During this initial contact, we'll discuss your specific needs, answer any questions, and schedule an appointment that suits your schedule.",
+          "image": "/images/floor-plan.webp",
+          "alt": "Floor plan, Construction, Building image."
+        },
+        {
+          "title": "On-Site Consultation",
+          "description": "Our dedicated team will visit your location to understand your requirements in detail. This step allows us to evaluate the scope of the project, identify potential challenges, and provide tailored recommendations that align with your vision. We prioritize clarity and collaboration to ensure you're fully informed at every stage.",
+          "image": "/images/construction-worker.webp",
+          "alt": "Construction worker, Builder, Build image."
+        },
+        {
+          "title": "Service Execution",
+          "description": "Once the plan is finalized, our skilled professionals get to work, delivering services with precision and care. We use high-quality materials and proven techniques to ensure exceptional outcomes. Throughout the process, we keep you updated to guarantee your satisfaction at every step.",
+          "image": "/images/basement-remodeling.webp",
+          "alt": "Bad remodeling finish image."
+        }
+      ]
     },
-    "vision": {
-      "title": "Our Vision",
-      "text": "To be the most trusted partner for all home-related services."
+    "quality": {
+      "title": "Quality and Professionalism",
+      "description": "We take pride in delivering results that combine top-tier craftsmanship, attention to detail, and a steadfast commitment to excellence. Our team of experienced professionals approaches every project with care and precision, ensuring that our clients receive not only outstanding results but also an unmatched service experience. Whether it's a small task or a large-scale project, we uphold the highest standards of professionalism, making us the trusted partner for all your home service needs. With us, quality is not just a promise; it’s a guarantee."
     }
   },
   "services": {
@@ -125,15 +147,101 @@
   "legal": {
     "privacy_policy": {
       "title": "Privacy Policy",
-      "content": "Details about how we manage and protect your data."
+      "content": {
+        "introduction": {
+          "title": "Introduction",
+          "description": "We take your privacy seriously and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and store your information when you visit our website or use our services, in compliance with the General Data Protection Regulation (GDPR) and other applicable laws."
+        },
+        "data_collection": {
+          "title": "Data We Collect",
+          "description": "We may collect the following types of personal data when you use our website or services: your name, email address, phone number, address, and any additional information you provide via contact forms or direct communication. We also collect technical data such as your IP address, browser type, and operating system through cookies or analytics tools, which help us improve our services."
+        },
+        "legal_basis": {
+          "title": "Legal Basis for Data Processing",
+          "description": "We process your personal data based on the following legal grounds: (1) your consent, (2) the performance of a contract, (3) compliance with legal obligations, or (4) our legitimate interest in improving and providing our services."
+        },
+        "data_usage": {
+          "title": "How We Use Your Data",
+          "description": "Your data is used for the following purposes: (1) to communicate with you and respond to inquiries, (2) to deliver the services you request, (3) to improve our website and services, and (4) to comply with legal requirements. We do not sell or share your data with third parties, except as required by law or when collaborating with trusted partners to fulfill your requests."
+        },
+        "data_protection": {
+          "title": "How We Protect Your Data",
+          "description": "We implement technical and organizational measures to secure your personal data against unauthorized access, alteration, or disclosure. These measures include encryption, access controls, and regular security audits. However, please note that no system is completely secure, and we cannot guarantee the absolute security of your data."
+        },
+        "data_retention": {
+          "title": "Data Retention",
+          "description": "We retain your personal data only for as long as necessary to fulfill the purposes outlined in this policy or as required by law. Once the retention period has expired, your data will be securely deleted or anonymized."
+        },
+        "your_rights": {
+          "title": "Your Rights Under GDPR",
+          "description": "As a data subject, you have the following rights: (1) the right to access your personal data, (2) the right to rectify incorrect or incomplete data, (3) the right to delete your data ('right to be forgotten'), (4) the right to restrict processing, (5) the right to data portability, and (6) the right to object to data processing. To exercise these rights, please contact us at info@hm-service.pro."
+        },
+        "third_parties": {
+          "title": "Third-Party Services",
+          "description": "We may use third-party services for analytics, payment processing, or marketing. These third parties are contractually obligated to process your data securely and in compliance with GDPR."
+        },
+        "cookies": {
+          "title": "Cookies",
+          "description": "Our website uses cookies to enhance your experience. Cookies are small text files stored on your device to provide functionality such as remembering preferences. You can manage your cookie preferences through your browser settings. For more details, see our Cookie Policy."
+        },
+        "updates": {
+          "title": "Policy Updates",
+          "description": "We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Please check this page regularly for updates."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "description": "If you have any questions or concerns about this Privacy Policy or your personal data, please contact us at info@hm-service.pro."
+        }
+      }
     },
     "terms_of_service": {
       "title": "Terms of Service",
-      "content": "The terms and conditions for using our website and services."
-    },
-    "cookie_policy": {
-      "title": "Cookie Policy",
-      "content": "Information about the cookies we use and how to manage them."
+      "content": {
+        "introduction": {
+          "title": "Introduction",
+          "description": "These Terms of Service govern your use of our website and services. By accessing our website or using our services, you agree to comply with these terms. If you do not agree, please do not use our services."
+        },
+        "services": {
+          "title": "Our Services",
+          "description": "We provide professional home services as described on our website. All services are subject to availability and tailored to your specific requirements. Prices, descriptions, and availability are subject to change without notice."
+        },
+        "user_responsibilities": {
+          "title": "User Responsibilities",
+          "description": "You agree to provide accurate and complete information when engaging with our services. You must not use our website for illegal activities or in a manner that disrupts our operations or violates the rights of others."
+        },
+        "intellectual_property": {
+          "title": "Intellectual Property",
+          "description": "All content on this website, including text, images, and logos, is the property of Haus Meister Service or its licensors. You may not reproduce, distribute, or use this content without our express written permission."
+        },
+        "payments": {
+          "title": "Payments and Cancellations",
+          "description": "Payments for services must be made as agreed. Cancellations require at least 24 hours' notice to avoid charges. Refunds are subject to our discretion and applicable laws."
+        },
+        "warranties": {
+          "title": "Warranties",
+          "description": "We strive to deliver high-quality services, but we do not guarantee that our website or services will always be error-free or meet your specific requirements. To the extent permitted by law, we disclaim all implied warranties."
+        },
+        "liability": {
+          "title": "Limitation of Liability",
+          "description": "We are not liable for indirect, incidental, or consequential damages arising from the use of our website or services. Our total liability is limited to the amount paid for the specific service."
+        },
+        "termination": {
+          "title": "Termination",
+          "description": "We reserve the right to terminate or suspend access to our website or services at any time, without notice, for conduct that violates these terms."
+        },
+        "dispute_resolution": {
+          "title": "Dispute Resolution",
+          "description": "Any disputes arising from these Terms of Service will be governed by the laws of Germany. You agree to resolve disputes through mediation or arbitration before pursuing legal action."
+        },
+        "changes": {
+          "title": "Changes to Terms",
+          "description": "We may update these Terms of Service at any time. Continued use of our website or services after changes indicates your acceptance of the updated terms."
+        },
+        "contact": {
+          "title": "Contact Us",
+          "description": "For questions or concerns about these Terms of Service, please contact us at info@hm-service.pro."
+        }
+      }
     }
   }
 }
