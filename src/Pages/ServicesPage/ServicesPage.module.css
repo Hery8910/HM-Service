@@ -107,18 +107,13 @@
 @media screen and (max-width: 768px) {
   .header {
     flex-direction: column;
-    position: relative;
     top: 8rem;
   }
   .header_div {
-    position: absolute;
-    left: 1;
-    bottom: 0;
     max-width: 550px;
   }
   .img_header {
-    max-width: 600px;
-    mask-image: linear-gradient(#081c15 40%, transparent);
+    display: none;
   }
   .li {
     flex-direction: column;
@@ -128,4 +123,26 @@
     max-width: 500px;
     margin: 0;
   }
+  .p {
+    max-width: 550px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .main {
+    margin: 0;
+  }
+  .header {
+    width: 80dvw;
+    margin-top: 0;
+    margin-bottom: 15rem;
+  }
+  .header_div {
+    bottom: -3rem;
+  }
+ .li {
+  max-width: 90dvw;
+ }
+ .img {
+  width: 90%;
+ }
 }

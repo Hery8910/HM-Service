@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "description": "HausMeister Service: Zuverlässige Hausdienstleistungen in Berlin und Brandenburg. Von Reinigung bis hin zu Renovierungen und Umzügen bieten wir professionelle und kundenorientierte Lösungen, um Ihren Wohn- oder Arbeitsraum zu verbessern. Kontaktieren Sie uns noch heute für maßgeschneiderte Dienstleistungen!"
+  },
   "common": {
     "header": {
       "home": "Startseite",
@@ -23,7 +26,7 @@
     }
   },
   "home": {
-    "welcome_message": "Haus Meister Service",
+    "welcome_message": "HausMeister Service",
     "subtitle": "Ihr zuverlässiger Partner für Hausdienste",
     "testimonials": {
       "title": "Was unsere Kunden sagen",

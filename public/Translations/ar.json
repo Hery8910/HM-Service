@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "description": "HausMeister Service: خدمات منزلية موثوقة في برلين وبراندنبورغ. من التنظيف إلى التجديدات والنقل، نقدم حلولاً احترافية ومخصصة لتحسين مساحات المعيشة أو العمل الخاصة بك. تواصل معنا اليوم للحصول على خدمات منزلية مصممة خصيصًا!"
+  },
   "common": {
     "header": {
       "home": "الرئيسية",
@@ -23,7 +26,7 @@
     }
   },
   "home": {
-    "welcome_message": "Haus Meister Service",
+    "welcome_message": "HausMeister Service",
     "subtitle": "شريكك الموثوق لخدمات المنازل",
     "testimonials": {
       "title": "آراء عملائنا",

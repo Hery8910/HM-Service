@@ -1,5 +1,5 @@
 .main {
-  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 10rem 0;
   width: 100%;
   display: flex;
@@ -30,4 +30,16 @@
 .link {
   text-decoration: none;
   color: inherit;
+}
+@media screen and (max-width: 768px) {
+  .h3 {
+    font-size: 1.2rem;
+    max-width: 500px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .h3 {
+    font-size: 1.2rem;
+    max-width: 400px;
+  }
 }

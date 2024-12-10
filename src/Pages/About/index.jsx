@@ -33,8 +33,8 @@ export default function About() {
           <h2 className={styles.h2}>{t("about.quality.title")}</h2>
           <p className={styles.process_p}>{t("about.quality.description")}</p>
         </section>
-        <Cta />
       </main>
+        <Cta />
     </>
   );
 }

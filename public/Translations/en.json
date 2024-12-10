@@ -1,4 +1,7 @@
 {
+  "meta": {
+    "description": "HausMeister Service: Reliable home services in Berlin and Brandenburg. From cleaning to renovations and moving, we offer professional and customer-focused solutions to enhance your living or working space. Get in touch today for tailored home services!"
+  },
   "common": {
     "header": {
       "home": "Home",
@@ -23,7 +26,7 @@
     }
   },
   "home": {
-    "welcome_message": "Haus Meister Service",
+    "welcome_message": "HausMeister Service",
     "subtitle": "Your reliable partner for home services",
     "testimonials": {
       "title": "What Our Clients Say",

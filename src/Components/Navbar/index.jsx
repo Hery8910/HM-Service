@@ -1,26 +1,19 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Navbar.module.css";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/Logo-transparent.svg";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 
+import Logo from "../../assets/LogoNav.svg";
+import { RxHamburgerMenu } from "react-icons/rx";
+import { IoClose } from "react-icons/io5";
+
 function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
-  const [isMobile, setIsMobile] = useState(false); 
+  const [isMobile, setIsMobile] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 1000);
     };
 
     handleResize();
@@ -34,32 +27,45 @@ function Navbar() {
   };
 
   return (
-    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ""}`}>
-      <Link
-        className={`${styles.logo} ${scrolled ? styles.scrolled_li : ""}`}
-        to="/"
-      >
-        <img src={Logo} alt="HM-Service Logo" style={{ height: "80px" }} />
-        <h1 className={styles.h1}>HM-Service</h1>
-      </Link>
-      <LanguageSwitcher />
+    <nav className={styles.navbar}>
+      <aside className={styles.aside}>
+        <Link className={styles.logo} to="/">
+          <img className={styles.logoIcon} src={Logo} alt="HM-Service Logo" />
+        </Link>
+      </aside>
       {isMobile && (
         <button
           className={styles.hamburger}
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
-          {menuOpen ? "X" : "☰"}
+          <RxHamburgerMenu />
         </button>
       )}
       <ul
+        onClick={toggleMenu}
         className={`${!isMobile ? styles.desktop : styles.mobile}
-                    ${isMobile && menuOpen ? styles.open : ""}
-                    ${scrolled ? styles.scrolled_ul : ""}`}
+        ${isMobile && menuOpen ? styles.open : null}
+        `}
       >
+        <li className={styles.firstLi}>
+          <LanguageSwitcher />
+          {isMobile && menuOpen ? (
+            <button
+              className={styles.close}
+              onClick={toggleMenu}
+              aria-label="Toggle menu"
+            >
+              <IoClose />
+            </button>
+          ) : null}
+        </li>
+
         <li>
           <Link
-            className={`${styles.li} ${scrolled ? styles.scrolled_li : ""}`}
+            className={`${styles.li} ${
+              isMobile && menuOpen ? styles.open_li : null
+            }`}
             to="/"
           >
             Home
@@ -67,7 +73,9 @@ function Navbar() {
         </li>
         <li>
           <Link
-            className={`${styles.li} ${scrolled ? styles.scrolled_li : ""}`}
+            className={`${styles.li} ${
+              isMobile && menuOpen ? styles.open_li : null
+            }`}
             to="/about"
           >
             About
@@ -75,7 +83,9 @@ function Navbar() {
         </li>
         <li>
           <Link
-            className={`${styles.li} ${scrolled ? styles.scrolled_li : ""}`}
+            className={`${styles.li} ${
+              isMobile && menuOpen ? styles.open_li : null
+            }`}
             to="/services"
           >
             Services
@@ -83,7 +93,9 @@ function Navbar() {
         </li>
         <li>
           <Link
-            className={`${styles.li} ${scrolled ? styles.scrolled_li : ""}`}
+            className={`${styles.li} ${
+              isMobile && menuOpen ? styles.open_li : null
+            }`}
             to="/contact"
           >
             Contact

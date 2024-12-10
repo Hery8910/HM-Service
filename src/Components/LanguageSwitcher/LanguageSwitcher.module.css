@@ -1,19 +1,20 @@
 .select {
+  font-size: 1.3rem;
     color: inherit;
     cursor: pointer;
     display: flex;
     justify-content: start;
     border-radius: 4px;
-    padding: 0.5rem;
-    background-color: transparent;
-    border: 1px solid #1e70878c;
-    box-shadow: 1px 1px 3px #1e70878c;
+    padding: 0.5rem 1rem;
+    background-color: #d8f3dc;
+    border: none;
   }
   .select:hover {
-    background-color:  #1e70878c;
+    background-color: #40916c;
   }
+
   .select:focus {
     outline: none;
-    border-color: rgba(141, 141, 141, 0.7);
+    border: 1px solid #95d5b2
   }
   

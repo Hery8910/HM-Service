@@ -1,9 +1,15 @@
 :root, body {
     background-color: #e3f2e5;
-    background-image: url(../public/images/ccchaos.svg);
+    background-image: url(/images/ccchaos.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 425px) {
+    :root, body {
+        margin: 0;
+        padding: 0;
+    }
+  }

@@ -29,14 +29,17 @@ export default function Home() {
       <section className={styles.about}>
         <img
           className={styles.about_img}
-          src="./public/images/about-desktop.webp"
+          src="/images/about-desktop.webp"
           alt="Frames, Nature, Decoration image"
         />
         <div className={styles.about_div}>
           <h2 className={styles.h2}>{t("about.title")}</h2>
           <p className={styles.p}>{t("about.description")}</p>
           <button className={styles.button}>
+          <Link className={styles.link} to="/about">
             {t("common.cta.learn_more")} <IoIosArrowForward />
+          </Link>
+
           </button>
         </div>
       </section>
