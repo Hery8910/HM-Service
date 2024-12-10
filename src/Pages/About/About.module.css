@@ -51,6 +51,7 @@
   justify-content: center;
   align-items: stretch;
   padding: 0;
+  margin: 0;
 }
 .li {
   max-width: 400px;
@@ -127,19 +128,29 @@
   }
   .header {
     background-image: none;
-
+    height: auto;
   }
+  
   .header_h2 {
     margin-bottom: 0;
     color: #081c15;
   }
+  .h2 {
+    font-size: 1.9rem;
+  }
   .li {
-    max-width: 300px;
+    max-width: 350px;
   }
   .li_p {
     margin: 0;
   }
   .li:nth-child(2) {
     flex-direction: column;
+  }
+  .div {
+    height: auto;
+  }
+  .header_p, .process_p, .li_p {
+    font-size: 1rem;
   }
 }

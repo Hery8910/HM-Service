@@ -132,11 +132,16 @@
     margin: 0;
   }
   .header {
-    width: 80dvw;
+    max-width: 80dvw;
     margin-top: 0;
     margin-bottom: 15rem;
   }
+  .h2 {
+    font-size: 1.9rem;
+    text-align: left;
+  }
   .header_div {
+    max-width: 80dvw;
     bottom: -3rem;
   }
  .li {
@@ -145,4 +150,6 @@
  .img {
   width: 90%;
  }
+
 }
+

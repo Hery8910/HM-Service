@@ -78,3 +78,17 @@
     text-decoration: none;
     color: inherit;
   }
+
+  @media screen and (max-width: 425px) {
+   
+    .h2 {
+      font-size: 2rem;
+      text-align: end;
+      text-align: left;
+
+    }
+    .description_p {
+      font-size: 1.8rem;
+      text-align: left;
+    }
+  }

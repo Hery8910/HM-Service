@@ -204,6 +204,8 @@
   }
   .h1 {
     font-size: 2rem;
+    text-align: end;
+
   }
   .h2 {
     font-size: 1.4rem;

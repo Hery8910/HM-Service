@@ -43,7 +43,6 @@ function Navbar() {
         </button>
       )}
       <ul
-        onClick={toggleMenu}
         className={`${!isMobile ? styles.desktop : styles.mobile}
         ${isMobile && menuOpen ? styles.open : null}
         `}
@@ -61,7 +60,8 @@ function Navbar() {
           ) : null}
         </li>
 
-        <li>
+        
+        <li onClick={toggleMenu}>
           <Link
             className={`${styles.li} ${
               isMobile && menuOpen ? styles.open_li : null
@@ -71,7 +71,7 @@ function Navbar() {
             Home
           </Link>
         </li>
-        <li>
+        <li onClick={toggleMenu}>
           <Link
             className={`${styles.li} ${
               isMobile && menuOpen ? styles.open_li : null
@@ -81,7 +81,7 @@ function Navbar() {
             About
           </Link>
         </li>
-        <li>
+        <li onClick={toggleMenu}>
           <Link
             className={`${styles.li} ${
               isMobile && menuOpen ? styles.open_li : null
@@ -91,7 +91,7 @@ function Navbar() {
             Services
           </Link>
         </li>
-        <li>
+        <li onClick={toggleMenu}>
           <Link
             className={`${styles.li} ${
               isMobile && menuOpen ? styles.open_li : null
