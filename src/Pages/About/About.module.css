@@ -132,11 +132,12 @@
   }
   
   .header_h2 {
-    margin-bottom: 0;
+    font: 2.5rem;
+    margin-bottom: 2rem;
     color: #081c15;
   }
   .h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
   .li {
     max-width: 350px;

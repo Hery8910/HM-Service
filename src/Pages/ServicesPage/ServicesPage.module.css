@@ -37,10 +37,10 @@
   flex: 1;
   padding: 1rem;
   border-radius: 8px;
+  background-color: #95d5b246;
   box-shadow: 0 4px 8px #95d5b2;
   text-align: center;
 }
-
 
 .img,
 .img_header {
@@ -137,19 +137,17 @@
     margin-bottom: 15rem;
   }
   .h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
     text-align: left;
   }
   .header_div {
     max-width: 80dvw;
     bottom: -3rem;
   }
- .li {
-  max-width: 90dvw;
- }
- .img {
-  width: 90%;
- }
-
+  .li {
+    max-width: 90dvw;
+  }
+  .img {
+    width: 90%;
+  }
 }
-

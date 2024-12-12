@@ -33,7 +33,7 @@ export default function Home() {
           alt="Frames, Nature, Decoration image"
         />
         <div className={styles.about_div}>
-          <h2 className={styles.h2}>{t("about.title")}</h2>
+          <h2 className={`${styles.h2} ${styles.section_h2}`}>{t("about.title")}</h2>
           <p className={styles.p}>{t("about.description")}</p>
           <button className={styles.button}>
           <Link className={styles.link} to="/about">
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </section>
       <section className={styles.testimonials}>
-        <h2 className={styles.h2}>{t("home.testimonials.title")}</h2>
+        <h2 className={`${styles.h2} ${styles.section_h2}`}>{t("home.testimonials.title")}</h2>
         <ul className={styles.testimonials_ul}>
           {reviews.map((review, index) => (
             <li
@@ -62,7 +62,7 @@ export default function Home() {
         <ServicesComponent />
       </section>
       <section className={styles.whyUs}>
-        <h2 className={styles.h2}>{t("home.benefits.title")}</h2>
+        <h2 className={`${styles.h2} ${styles.section_h2}`}>{t("home.benefits.title")}</h2>
         <ul className={styles.whyUs_ul}>
           {cards.map((card, index) => (
             <li

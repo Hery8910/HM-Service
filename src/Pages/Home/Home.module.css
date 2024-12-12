@@ -130,6 +130,7 @@
   flex: 1;
   padding: 1rem;
   border-radius: 8px;
+  background-color: #95d5b246;
   box-shadow: 0 4px 8px #95d5b2;
   text-align: center;
 }
@@ -205,11 +206,13 @@
   .h1 {
     font-size: 2rem;
     text-align: end;
-
   }
   .h2 {
     font-size: 1.4rem;
     text-align: end;
+  }
+  .section_h2 {
+    font-size: 2rem;
   }
   .button {
     font-size: 0.9rem;
